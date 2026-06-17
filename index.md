@@ -33,7 +33,7 @@ The API follows a Clean Architecture-based architecture, separating responsibili
 
 ---
 
-## Tecnologías utilizadas
+## Technologies used
 
 - ASP.NET 10
 - Entity Framework
@@ -41,42 +41,3 @@ The API follows a Clean Architecture-based architecture, separating responsibili
 - Swagger / OpenAPI
 - Docker
 - Render
-
-## Endpoints
-
-### Authentication
-
-| Método | Endpoint           |
-| ------ | ------------------ |
-| POST   | /api/auth/register |
-| POST   | /api/auth/login    |
-
-### Songs
-
-| Método | Endpoint        |
-| ------ | --------------- |
-| GET    | /api/songs      |
-| GET    | /api/songs/{id} |
-| POST   | /api/songs      |
-| PUT    | /api/songs/{id} |
-| DELETE | /api/songs/{id} |
-
-### Playlists
-
-| Método | Endpoint            |
-| ------ | ------------------- |
-| GET    | /api/playlists      |
-| POST   | /api/playlists      |
-| DELETE | /api/playlists/{id} |
-
----
-
-## Autenticación
-
-La API utiliza JWT Bearer Authentication.
-
-```http
-Authorization: Bearer {token}
-```
-
----

@@ -1,5 +1,5 @@
 ---
-title: Entities
+title: Functionalities
 layout: default
 nav_order: 3
 ---
