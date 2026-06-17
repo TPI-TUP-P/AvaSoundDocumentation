@@ -16,7 +16,7 @@ We created an API for a web platform focused on independent artists, allowing th
 
 ## Swagger
 
-La documentación interactiva se encuentra disponible en:
+Interactive documentation is available at:
 
 ```text
 https://ava-sound.onrender.com/
@@ -35,40 +35,12 @@ The API follows a Clean Architecture-based architecture, separating responsibili
 
 ## Tecnologías utilizadas
 
-- ASP.NET Core 9
-- Entity Framework Core
-- PostgreSQL
+- ASP.NET 10
+- Entity Framework
 - JWT Authentication
-- Firebase Storage
 - Swagger / OpenAPI
 - Docker
 - Render
-
----
-
-## Funcionalidades
-
-### Gestión de usuarios
-
-- Registro de usuarios
-- Inicio de sesión
-- Actualización de perfil
-- Gestión de roles
-
-### Gestión de canciones
-
-- Subida de audio
-- Obtención de canciones
-- Eliminación de canciones
-- Actualización de metadatos
-
-### Reproducción
-
-- Streaming de audio
-- Listas de reproducción
-- Favoritos
-
----
 
 ## Endpoints
 
@@ -96,17 +68,6 @@ The API follows a Clean Architecture-based architecture, separating responsibili
 | GET    | /api/playlists      |
 | POST   | /api/playlists      |
 | DELETE | /api/playlists/{id} |
-
----
-
-## Arquitectura
-
-La API sigue una arquitectura basada en Clean Architecture, separando responsabilidades en:
-
-- Domain
-- Application
-- Infrastructure
-- Presentation
 
 ---
 
