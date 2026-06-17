@@ -6,11 +6,11 @@ nav_order: 1
 
 # Ava Sound API
 
-Bienvenido a la documentación oficial de Ava Sound.
+Welcome to the official Ava Sound documentation.
 
-## Descripción
+## Description
 
-Ava Sound es una plataforma para la gestión y reproducción de contenido musical, permitiendo a los usuarios almacenar, buscar y reproducir canciones mediante una API REST desarrollada en ASP.NET Core.
+We created an API for a web platform focused on independent artists, allowing them to publish their music, receive feedback from the community, and gain visibility without depending on major record labels.
 
 ---
 
@@ -53,38 +53,27 @@ Ava Sound es una plataforma para la gestión y reproducción de contenido musica
 
 ## Entidades principales
 
-### User
-
-Representa un usuario del sistema.
-
-| Campo | Tipo |
-|---------|---------|
-| Id | Guid |
-| Username | string |
-| Email | string |
-| Role | string |
-
 ### Song
 
 Representa una canción almacenada.
 
-| Campo | Tipo |
-|---------|---------|
-| Id | Guid |
-| Title | string |
-| Artist | string |
-| Duration | int |
-| Url | string |
+| Campo    | Tipo   |
+| -------- | ------ |
+| Id       | Guid   |
+| Title    | string |
+| Artist   | string |
+| Duration | int    |
+| Url      | string |
 
 ### Playlist
 
 Representa una lista de reproducción.
 
-| Campo | Tipo |
-|---------|---------|
-| Id | Guid |
-| Name | string |
-| UserId | Guid |
+| Campo  | Tipo   |
+| ------ | ------ |
+| Id     | Guid   |
+| Name   | string |
+| UserId | Guid   |
 
 ---
 
@@ -92,27 +81,27 @@ Representa una lista de reproducción.
 
 ### Authentication
 
-| Método | Endpoint |
-|----------|----------|
-| POST | /api/auth/register |
-| POST | /api/auth/login |
+| Método | Endpoint           |
+| ------ | ------------------ |
+| POST   | /api/auth/register |
+| POST   | /api/auth/login    |
 
 ### Songs
 
-| Método | Endpoint |
-|----------|----------|
-| GET | /api/songs |
-| GET | /api/songs/{id} |
-| POST | /api/songs |
-| PUT | /api/songs/{id} |
+| Método | Endpoint        |
+| ------ | --------------- |
+| GET    | /api/songs      |
+| GET    | /api/songs/{id} |
+| POST   | /api/songs      |
+| PUT    | /api/songs/{id} |
 | DELETE | /api/songs/{id} |
 
 ### Playlists
 
-| Método | Endpoint |
-|----------|----------|
-| GET | /api/playlists |
-| POST | /api/playlists |
+| Método | Endpoint            |
+| ------ | ------------------- |
+| GET    | /api/playlists      |
+| POST   | /api/playlists      |
 | DELETE | /api/playlists/{id} |
 
 ---
