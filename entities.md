@@ -1,9 +1,10 @@
 ---
-title: Entidades
+title: Entities
+layout: home
 nav_order: 2
 ---
 
-# Entidades
+# Entities
 
 ## User
 
