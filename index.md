@@ -14,6 +14,25 @@ We created an API for a web platform focused on independent artists, allowing th
 
 ---
 
+## Swagger
+
+La documentación interactiva se encuentra disponible en:
+
+```text
+https://ava-sound.onrender.com/
+```
+
+## Architecture
+
+The API follows a Clean Architecture-based architecture, separating responsibilities into:
+
+- Domain
+- Application
+- Infrastructure
+- Web
+
+---
+
 ## Tecnologías utilizadas
 
 - ASP.NET Core 9
@@ -48,32 +67,6 @@ We created an API for a web platform focused on independent artists, allowing th
 - Streaming de audio
 - Listas de reproducción
 - Favoritos
-
----
-
-## Entidades principales
-
-### Song
-
-Representa una canción almacenada.
-
-| Campo    | Tipo   |
-| -------- | ------ |
-| Id       | Guid   |
-| Title    | string |
-| Artist   | string |
-| Duration | int    |
-| Url      | string |
-
-### Playlist
-
-Representa una lista de reproducción.
-
-| Campo  | Tipo   |
-| ------ | ------ |
-| Id     | Guid   |
-| Name   | string |
-| UserId | Guid   |
 
 ---
 
@@ -126,11 +119,3 @@ Authorization: Bearer {token}
 ```
 
 ---
-
-## Swagger
-
-La documentación interactiva se encuentra disponible en:
-
-```text
-https://tu-api.com/swagger
-```
